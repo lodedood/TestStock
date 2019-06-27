@@ -47,6 +47,7 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.ChkAlertLine = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.btnreg = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -86,7 +87,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtSearchE = new System.Windows.Forms.TextBox();
             this.txtSearchS = new System.Windows.Forms.TextBox();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -203,6 +204,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.simpleButton2);
             this.panel1.Controls.Add(this.simpleButton1);
             this.panel1.Controls.Add(this.btnreg);
@@ -215,6 +217,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1584, 198);
             this.panel1.TabIndex = 9;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Location = new System.Drawing.Point(24, 137);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton2.TabIndex = 9;
+            this.simpleButton2.Text = "simpleButton2";
             // 
             // simpleButton1
             // 
@@ -801,13 +811,14 @@
             this.txtSearchS.TabIndex = 0;
             this.txtSearchS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // simpleButton2
+            // label9
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(24, 137);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton2.TabIndex = 9;
-            this.simpleButton2.Text = "simpleButton2";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(42, 121);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "label9";
             // 
             // frmMain
             // 
@@ -827,6 +838,7 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -900,6 +912,7 @@
         private DevExpress.XtraEditors.SimpleButton btnreg;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private System.Windows.Forms.Label label9;
     }
 }
 
