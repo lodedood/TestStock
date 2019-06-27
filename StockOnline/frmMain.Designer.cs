@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            FarPoint.Win.Spread.CellType.TextCellType textCellType1 = new FarPoint.Win.Spread.CellType.TextCellType();
-            FarPoint.Win.Spread.CellType.TextCellType textCellType2 = new FarPoint.Win.Spread.CellType.TextCellType();
-            FarPoint.Win.Spread.CellType.ButtonCellType buttonCellType1 = new FarPoint.Win.Spread.CellType.ButtonCellType();
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Dell");
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("ASUS");
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("ThinkPad");
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("Lenovo");
-            FarPoint.Win.Spread.CellType.TextCellType textCellType3 = new FarPoint.Win.Spread.CellType.TextCellType();
+            FarPoint.Win.Spread.CellType.TextCellType textCellType4 = new FarPoint.Win.Spread.CellType.TextCellType();
+            FarPoint.Win.Spread.CellType.TextCellType textCellType5 = new FarPoint.Win.Spread.CellType.TextCellType();
+            FarPoint.Win.Spread.CellType.ButtonCellType buttonCellType2 = new FarPoint.Win.Spread.CellType.ButtonCellType();
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Dell");
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("ASUS");
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("ThinkPad");
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Lenovo");
+            FarPoint.Win.Spread.CellType.TextCellType textCellType6 = new FarPoint.Win.Spread.CellType.TextCellType();
             this.btnIn = new DevExpress.XtraEditors.SimpleButton();
             this.btnOut = new DevExpress.XtraEditors.SimpleButton();
             this.button1 = new System.Windows.Forms.Button();
@@ -296,7 +296,7 @@
             this.sp1_Sheet1.Columns.Get(0).Label = "วันที่";
             this.sp1_Sheet1.Columns.Get(0).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
             this.sp1_Sheet1.Columns.Get(0).Width = 150F;
-            this.sp1_Sheet1.Columns.Get(1).CellType = textCellType1;
+            this.sp1_Sheet1.Columns.Get(1).CellType = textCellType4;
             this.sp1_Sheet1.Columns.Get(1).HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center;
             this.sp1_Sheet1.Columns.Get(1).Label = "รหัส";
             this.sp1_Sheet1.Columns.Get(1).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
@@ -385,7 +385,7 @@
             this.sp2_Sheet1.Columns.Get(0).Label = "วันที่";
             this.sp2_Sheet1.Columns.Get(0).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
             this.sp2_Sheet1.Columns.Get(0).Width = 150F;
-            this.sp2_Sheet1.Columns.Get(1).CellType = textCellType2;
+            this.sp2_Sheet1.Columns.Get(1).CellType = textCellType5;
             this.sp2_Sheet1.Columns.Get(1).HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center;
             this.sp2_Sheet1.Columns.Get(1).Label = "รหัส";
             this.sp2_Sheet1.Columns.Get(1).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
@@ -415,9 +415,9 @@
             this.sp2_Sheet1.Columns.Get(7).Label = "อุปกรณ์เพิ่มเติม";
             this.sp2_Sheet1.Columns.Get(7).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
             this.sp2_Sheet1.Columns.Get(7).Width = 300F;
-            buttonCellType1.ButtonColor2 = System.Drawing.SystemColors.ButtonFace;
-            buttonCellType1.Text = "คืนของ";
-            this.sp2_Sheet1.Columns.Get(8).CellType = buttonCellType1;
+            buttonCellType2.ButtonColor2 = System.Drawing.SystemColors.ButtonFace;
+            buttonCellType2.Text = "คืนของ";
+            this.sp2_Sheet1.Columns.Get(8).CellType = buttonCellType2;
             this.sp2_Sheet1.Columns.Get(8).Label = " ";
             this.sp2_Sheet1.Columns.Get(8).Width = 78F;
             this.sp2_Sheet1.Columns.Get(9).Label = "PK";
@@ -634,10 +634,10 @@
             this.ListItem.AllowDrop = true;
             this.ListItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListItem.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4});
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8});
             this.ListItem.Location = new System.Drawing.Point(17, 29);
             this.ListItem.Name = "ListItem";
             this.ListItem.Size = new System.Drawing.Size(195, 188);
@@ -692,7 +692,7 @@
             this.sp3_Sheet1.Columns.Get(0).Label = "รหัสทรัพย์สิน";
             this.sp3_Sheet1.Columns.Get(0).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
             this.sp3_Sheet1.Columns.Get(0).Width = 150F;
-            this.sp3_Sheet1.Columns.Get(1).CellType = textCellType3;
+            this.sp3_Sheet1.Columns.Get(1).CellType = textCellType6;
             this.sp3_Sheet1.Columns.Get(1).HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center;
             this.sp3_Sheet1.Columns.Get(1).Label = "รหัสหน่วยงาน";
             this.sp3_Sheet1.Columns.Get(1).VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center;
@@ -796,7 +796,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(191, 68);
             this.simpleButton1.TabIndex = 8;
-            this.simpleButton1.Text = "simpleButton1";
+            this.simpleButton1.Text = "ปุ่ม Test";
             // 
             // frmMain
             // 
